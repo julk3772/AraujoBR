@@ -38,6 +38,28 @@ h4 {
 .centrar-texto{
     text-align: center;
 }
+.d-block {
+    display: block !important;
+}
+/** Botones **/
+.boton{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+}
+.boton-amarillo{
+    background-color: #e08709;
+    display: block;    
+}
+.boton-verde {
+    background-color: #71b100;
+    display: block;
+}
 /* Header */
 .site-header.inicio{
     background-image: url(../img/header.jpg);
@@ -105,4 +127,12 @@ h4 {
 .contenido-anuncio h3,
 .contenido-anuncio p {
     margin: 0;
+}
+.precio {
+    color: #71b100;
+    font-weight: 700;
+}
+.ver-todas {
+    display: flex;
+    justify-content: flex-end;
 }
