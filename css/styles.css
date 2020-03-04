@@ -132,7 +132,77 @@ h4 {
     color: #71b100;
     font-weight: 700;
 }
+.iconos-caracteristicas {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    justify-content: space-evenly;
+} 
+.iconos-caracteristicas li {
+    /* flex: 1; */
+    display: flex;
+}
+.iconos-caracteristicas li img {
+    margin-right: 2rem;
+}
 .ver-todas {
     display: flex;
     justify-content: flex-end;
 }
+/*** Contacto Home ****/
+.imagen-contacto {
+    background-image: url(../img/encuentra.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+.contenido-contacto {
+    flex: 1;
+    color: #ffffff;
+}
+.contenido-contacto p {
+    font-size: 1.8rem;
+}
+/** Seccion Inferior **/
+.seccion-inferior {
+    display: flex;
+    justify-content: space-between;    
+}
+.seccion-inferior .blog {
+    flex-basis: 60%;
+}
+.seccion-inferior .testimoniales {
+    flex-basis: calc(40% - 2rem);
+}
+.entrada-blog {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.entrada-blog:last-of-type{
+    margin-bottom: 0;
+}
+.entrada-blog .imagen {
+    flex-basis: 40%;
+}
+.entrada-blog .texto-entrada {
+    flex-basis: calc(60% - 3rem);
+}
+.texto-entrada a {
+    color: #081008;
+    text-decoration: none;
+}
+.texto-entrada h4{
+    margin: 0;
+    line-height: 1.4;
+}   
+.texto-entrada h4::after {
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    background-color: #71b100;
+    margin-top: 1rem;
+}  
