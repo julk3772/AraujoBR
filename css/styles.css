@@ -170,11 +170,11 @@ h4 {
     display: flex;
     justify-content: space-between;    
 }
-.seccion-inferior .blog {
+.seccion-inferior.blog {
     flex-basis: 59%;
     border: 2px solid black;
 }
-.seccion-inferior .testimoniales {
+.seccion-inferior.testimoniales {
     flex-basis: calc(39% - 2rem);
     border: 2px solid black;
 }
